@@ -9,20 +9,18 @@ const BackToTop = () => {
             setIsVisible(false);
         }
     };
-
     const scrollToTop = () => {
         window.scrollTo({
             top: 0,
             behavior: "smooth",
         });
     };
-
     return (
         <div>
             {isVisible && (
                 <button
                     onClick={scrollToTop}
-                    className="fixed bottom-5 right-5 bg-purple text-darkblue p-2 w-12 border border-darkblue rounded-lg flex justify-center"
+                    className="fixed bottom-5 right-5 bg-purple p-2 w-12 border border-darkblue rounded-lg flex justify-center"
                 >
                     <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="white"
                         viewBox="0 0 16 16">

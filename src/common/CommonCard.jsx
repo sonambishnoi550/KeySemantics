@@ -2,7 +2,7 @@ import React from "react";
 import CustomHeading from "./CustomHeading";
 import CustomButton from "./CustomButton";
 
-const CommonCard = ({text,list,classList}) => {
+const CommonCard = ({list}) => {
     return (
         <div>
             <CustomHeading text="Headless federated search" className="max-lg:text-center"/>

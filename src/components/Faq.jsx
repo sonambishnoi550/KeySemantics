@@ -11,7 +11,6 @@ const Faq = () => {
     const toggleAccordion = (index) => {
         setActiveIndex(activeIndex === index ? null : index);
     };
-
     return (
         <div className='xl:pt-[458px] max-xl:pt-24 max-lg:pt-16 max-sm:pt-12 bg-pink'>
             <div className='container'>

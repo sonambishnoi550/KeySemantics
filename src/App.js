@@ -1,10 +1,10 @@
 import React from 'react'
 import Hero from './components/Hero'
-import KeySementicWork from './components/KeySementicWork'
+import KeySemanticWork from './components/KeySemanticWork'
 import Search from './components/Search'
 import Security from './components/Security'
 import Faq from './components/Faq'
-import KeySementic from './components/KeySementic'
+import KeySemantic from './components/KeySemantic'
 import Footer from './common/Footer'
 import FormValidation from './common/FormValidation'
 import BackToTop from './common/BackToTop'
@@ -14,8 +14,8 @@ const App = () => {
     <>
       <>
         <Hero />
-        <KeySementicWork />
-        <KeySementic />
+        <KeySemanticWork />
+        <KeySemantic />
         <Faq />
         <Search />
         <Security />

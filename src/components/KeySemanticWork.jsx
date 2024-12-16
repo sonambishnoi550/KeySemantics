@@ -2,7 +2,7 @@ import React from 'react'
 import { WORK_ITEMS } from '../utils/helper'
 import CustomHeading from '../common/CustomHeading'
 import Lottie from 'react-lottie-player'
-const KeySementicWork = () => {
+const KeySemanticWork = () => {
   return (
       <div className='pt-24 max-sm:pt-12 max-lg:pb-12 max-sm:pb-0 max-lg:pt-16'>
           <div className="container">
@@ -26,4 +26,4 @@ const KeySementicWork = () => {
   )
 }
 
-export default KeySementicWork
+export default KeySemanticWork

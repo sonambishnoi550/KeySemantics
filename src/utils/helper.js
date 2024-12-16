@@ -1,6 +1,6 @@
-import WorkOne from "../lottie/file server (1).json"
-import WorkTwo from "../lottie/search (1).json"
-import WorkThree from "../lottie/server search (1).json"
+import WorkOne from "../lottie/work-one.json"
+import WorkTwo from "../lottie/work-two.json"
+import WorkThree from "../lottie/work-three.json"
 export const WORK_ITEMS = [
     {
        src: WorkOne,

@@ -1,7 +1,7 @@
 import React from 'react'
 import Lottie from 'react-lottie-player'
-import semantics from '../lottie/infography (1).json'
-import mobile from '../lottie/mobile.json'
+import semantics from '../lottie/key-sementic.json'
+import mobile from '../lottie/key-mobile.json'
 
 const KeySemantics = () => {
     return (

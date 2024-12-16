@@ -11,14 +11,11 @@ const FormValidation = () => {
         company: '',
         phone: '',
     };
-
     const [formData, setFormData] = useState(initialFormState);
-
     const handleChange = (e) => {
         const { id, value } = e.target;
         setFormData({ ...formData, [id]: value });
     };
-
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log('Form Data:', formData);

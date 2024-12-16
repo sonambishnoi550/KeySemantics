@@ -13,7 +13,7 @@ const Faq = () => {
     };
 
     return (
-        <div className='pt-[489px] max-xl:pt-24 max-lg:pt-16 max-sm:pt-12 bg-pink'>
+        <div className='xl:pt-[458px] max-xl:pt-24 max-lg:pt-16 max-sm:pt-12 bg-pink'>
             <div className='container'>
                 <div className="flex max-lg:flex-wrap justify-between">
                     <div className="lg:w-5/12 w-full max-lg:pb-7 max-lg:mx-auto lg:sticky top-4 h-fit">
@@ -24,7 +24,7 @@ const Faq = () => {
                         />
                     </div>
                     <div className="lg:w-6/12 w-full">
-                        <CustomHeading text="Key Q&A" className="max-lg:pb-5"/>
+                        <CustomHeading text="Key Q&A" className="max-lg:pb-5 max-lg:text-center"/>
                         <ul className="pb-6 max-w-[552px] max-lg:mx-auto !ml-4">
                             {FAQ_ITEMS.map((item, index) => (
                                 <li
@@ -49,7 +49,7 @@ const Faq = () => {
                                     </svg>
                                 </button>
                                 {activeIndex === index && (
-                                    <div className="bg-gray-50 pb-4 text-darkblue text-base opacity-65">
+                                    <div className="bg-gray-50 pb-4 text-darkblue text-base max-md:text-sm opacity-65">
                                         {item.description && <p className="mb-4">{item.description}</p>}
                                         {item.tittle && <p className="mb-4">{item.tittle}</p>}
                                         {item.images.length > 0 && (
@@ -69,7 +69,7 @@ const Faq = () => {
                                 )}
                             </div>
                         ))}
-                        <CustomButton text="Get a demo"/>
+                        <CustomButton text="Get a demo" className="max-lg:mx-auto flex"/>
                     </div>
                 </div>
             </div>

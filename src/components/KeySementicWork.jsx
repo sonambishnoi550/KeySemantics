@@ -4,7 +4,7 @@ import CustomHeading from '../common/CustomHeading'
 import Lottie from 'react-lottie-player'
 const KeySementicWork = () => {
   return (
-      <div className='pt-24 max-sm:pt-12 max-lg:pb-12 max-lg:pt-16'>
+      <div className='pt-24 max-sm:pt-12 max-lg:pb-12 max-sm:pb-0 max-lg:pt-16'>
           <div className="container">
               <CustomHeading text="How does KeySemantics work?" className="text-center pb-[56px] max-lg:pb-8"/>
               <div className="flex justify-between max-lg:flex-wrap max-lg:justify-center max-lg:gap-10 max-w-[1026px] mx-auto">

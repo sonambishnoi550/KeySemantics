@@ -27,12 +27,12 @@ const FormValidation = () => {
     return (
         <div className='lg:py-24 md:py-16 py-12 bg-darkblue relative max-sm:px-3'>
             <div className='absolute top-0 left-[12%] xl:block hidden'>
-                <img className='max-w-[137px]' src="./assets/webp/footer-icon-one.png" alt="footer-icon" />
+                <img className='max-w-[137px]' src="./assets/webp/footer-icon-one.webp" alt="footer-icon" />
             </div>
             <div className='absolute bottom-0 right-[12%] xl:block hidden'>
-                <img className='max-w-[137px]' src="./assets/webp/footer-icon-two.png" alt="footer-icon" />
+                <img className='max-w-[137px]' src="./assets/webp/footer-icon-two.webp" alt="footer-icon" />
             </div>
-            <CustomHeading text="How does KeySemantics work?" className="text-white text-center"></CustomHeading>
+            <CustomHeading text="How does KeySemantics work?" className="text-white text-center"/>
             <p className='pt-3 font-normal text-base lg:pb-[64px] md:pb-14 pb-11 text-white text-center max-sm:text-sm'>Request a demo for your team and let us show you how KeySemantics can help your company</p>
             <div className="flex justify-center">
                 <form
@@ -57,7 +57,7 @@ const FormValidation = () => {
                         By submitting my contact information I agree to the KeySemantics Privacy Policy
                     </p>
 
-                    <CustomButton text="Request a demo" className="!bg-sky text-white py-4 px-8 mx-auto flex border border-sky hover:!text-sky hover:!bg-white"></CustomButton>
+                    <CustomButton text="Request a demo" className="!bg-sky text-white py-4 px-8 mx-auto flex border border-sky hover:!text-sky hover:!bg-white"/>
                 </form>
             </div>
         </div>

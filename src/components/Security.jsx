@@ -10,7 +10,7 @@ const Security = () => {
                         <img className='max-w-[570px] max-sm:max-w-[330px] max-xl:max-w-[450px] max-lg:mx-auto max-lg:pb-6' src="./assets/webp/security.webp" alt="search" />
                     </div>
                     <div className='lg:w-5/12 w-full xl:pt-[48.5px] mr-10'>
-                        <CommonCard classList="!text-left max-lg:!text-center" heading="Data Security and Hosting" NavButton="Get a demo" list={SECURITY_ITEMS} />
+                        <CommonCard classList="!text-left" text="Data Security and Hosting" NavButton="Get a demo" list={SECURITY_ITEMS} />
                     </div>
                 </div>
             </div>

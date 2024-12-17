@@ -7,14 +7,14 @@ const KeySemantics = () => {
     return (
         <div className='key-bg'>
             <div className='container'>
-                <div className='max-w-[1200px] w-full sm:block hidden'>
+                <div className='max-w-[1200px] mx-auto sm:block hidden xl:-ml-10 !lg:h-[588px]'>
                     <Lottie
                         loop
                         animationData={semantics}
                         play
                     />
                 </div>
-                <div className='max-w-[1200px] w-full sm:hidden'>
+                <div className=' sm:hidden'>
                     <Lottie
                         loop
                         animationData={mobile}

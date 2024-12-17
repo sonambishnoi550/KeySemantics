@@ -5,7 +5,7 @@ import CustomHeading from '../common/CustomHeading'
 
 const Hero = () => {
     return (
-        <div style={{ backgroundImage: `url(./assets/webp/hero-bg.webp)` }} className='bg-hero-bg bg-pink bg-cover bg-no-repeat bg-center pb-[287px] max-xl:pb-[200px] max-lg:pb-[140px] max-sm:pb-16'>
+        <div style={{ backgroundImage: `url(./assets/webp/hero-bg.webp)` }} className='bg-hero-bg bg-pink bg-cover bg-no-repeat bg-center lg:h-[900px] max-xl:pb-[200px] max-lg:pb-[140px] max-sm:pb-16'>
             <Header />
             <div className="container">
                 <h1 className="text-center pt-[198px] max-xl:pt-[150px] max-lg:pt-[110px] !text-custom-6xl max-w-[645px] leading-custom-lg mx-auto max-sm:pt-[70px] max-lg:!text-4xl max-sm:!text-custom-2xl font-bold ">AI-Powered Search as a Service</h1>

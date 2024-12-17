@@ -17,7 +17,7 @@ const Faq = () => {
                 <div className="flex max-lg:flex-wrap justify-between">
                     <div className="lg:w-5/12 w-full max-lg:pb-7 max-lg:mx-auto lg:sticky top-4 h-fit">
                         <img
-                            className='max-w-[500px] max-xl:max-w-[448px] max-sm:max-w-[332px] mx-auto'
+                            className='max-w-[550px] max-xl:max-w-[448px] max-sm:max-w-[332px] mx-auto w-full'
                             src="./assets/webp/faq-girl.webp"
                             alt="girl"
                         />

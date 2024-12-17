@@ -22,7 +22,7 @@ const FormValidation = () => {
         setFormData(initialFormState);
     };
     return (
-        <div className='lg:py-24 md:py-16 py-12 bg-darkblue relative max-sm:px-3 container'>
+        <div className='lg:py-24 md:py-16 py-12 bg-darkblue relative max-lg:px-3 '>
             <div className='absolute top-0 left-[12%] xl:block hidden'>
                 <img className='max-w-[137px]' src="./assets/webp/footer-icon-one.webp" alt="footer-icon" />
             </div>

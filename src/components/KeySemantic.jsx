@@ -5,7 +5,7 @@ import mobile from '../lottie/key-mobile.json'
 
 const KeySemantics = () => {
     return (
-        <div className='xl:-mb-[294px]'>
+        <div className='key-bg'>
             <div className='container'>
                 <div className='max-w-[1200px] w-full sm:block hidden'>
                     <Lottie

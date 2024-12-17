@@ -6,7 +6,7 @@ import CustomButton from '../common/CustomButton';
 import CustomHeading from '../common/CustomHeading';
 
 const Faq = () => {
-    const [activeIndex, setActiveIndex] = useState(null);
+    const [activeIndex, setActiveIndex] = useState(2);
 
     const toggleAccordion = (index) => {
         setActiveIndex(activeIndex === index ? null : index);

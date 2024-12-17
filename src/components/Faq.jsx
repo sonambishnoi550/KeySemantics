@@ -14,21 +14,21 @@ const Faq = () => {
     return (
         <div className='pt-[128px] max-xl:pt-24 max-lg:pt-16 max-sm:pt-12 bg-pink'>
             <div className='container'>
-                <div className="flex max-lg:flex-wrap justify-between">
-                    <div className="lg:w-5/12 w-full max-lg:pb-7 max-lg:mx-auto lg:sticky top-4 h-fit">
+                <div className="flex max-lg:flex-wrap !justify-between">
+                    <div className=" w-full max-lg:pb-7 max-lg:mx-auto lg:sticky top-4 h-fit">
                         <img
-                            className='max-w-[550px] max-xl:max-w-[448px] max-sm:max-w-[332px] mx-auto w-full'
+                            className='max-w-[550px] max-xl:max-w-[448px] max-sm:max-w-[332px] mx-auto lg:h-[337px]'
                             src="./assets/webp/faq-girl.webp"
                             alt="girl"
                         />
                     </div>
-                    <div className="lg:w-6/12 w-full">
+                    <div className="xl:ml-10 w-full">
                         <CustomHeading text="Key Q&A" className="max-lg:pb-5 max-lg:text-center !pb-2"/>
                         <ul className="pb-6 max-w-[552px] max-lg:mx-auto !ml-4">
                             {FAQ_ITEMS.map((item, index) => (
                                 <li
                                     key={index}
-                                    className="list-disc text-darkblue text-base font-normal leading-custom-xl opacity-60"
+                                    className="list-disc text-darkblue text-base font-normal leading-custom-xl"
                                 >
                                     {item}
                                 </li>
@@ -39,7 +39,7 @@ const Faq = () => {
                             <div key={index} className="border-b border-lightgray transition-all duration-700">
                                 <button
                                     onClick={() => toggleAccordion(index)}
-                                    className="w-full flex justify-between items-center py-4 text-left opacity-70 text-lg font-medium text-darkblue hover:bg-gray-100 transition-all duration-700"
+                                    className="w-full flex justify-between items-center py-4 text-left text-lg font-medium text-darkblue hover:bg-gray-100 transition-all duration-700"
                                 >
                                     <span>{item.heading}</span>
                                     <svg className={`transform transition-transform duration-500 size-6 max-sm:size-4 ${activeIndex === index ? 'rotate-180' : 'rotate-0'

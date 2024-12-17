@@ -23,7 +23,7 @@ const Faq = () => {
                         />
                     </div>
                     <div className="lg:w-6/12 w-full">
-                        <CustomHeading text="Key Q&A" className="max-lg:pb-5 max-lg:text-center"/>
+                        <CustomHeading text="Key Q&A" className="max-lg:pb-5 max-lg:text-center !pb-2"/>
                         <ul className="pb-6 max-w-[552px] max-lg:mx-auto !ml-4">
                             {FAQ_ITEMS.map((item, index) => (
                                 <li

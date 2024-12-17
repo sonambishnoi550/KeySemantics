@@ -36,10 +36,10 @@ const Faq = () => {
                         </ul>
                         <div className='border-b border-lightgray'></div>
                         {ACCORDION_DATA.map((item, index) => (
-                            <div key={index} className="border-b border-lightgray">
+                            <div key={index} className="border-b border-lightgray transition-all duration-700">
                                 <button
                                     onClick={() => toggleAccordion(index)}
-                                    className="w-full flex justify-between items-center py-4 text-left opacity-70 text-lg font-medium text-darkblue hover:bg-gray-100"
+                                    className="w-full flex justify-between items-center py-4 text-left opacity-70 text-lg font-medium text-darkblue hover:bg-gray-100 transition-all duration-700"
                                 >
                                     <span>{item.heading}</span>
                                     <svg className={`transform transition-transform duration-500 size-6 max-sm:size-4 ${activeIndex === index ? 'rotate-0' : 'rotate-180'
@@ -48,7 +48,7 @@ const Faq = () => {
                                     </svg>
                                 </button>
                                 {activeIndex === index && (
-                                    <div className="bg-gray-50 pb-4 text-darkblue text-base max-md:text-sm opacity-65">
+                                    <div className="bg-gray-50 pb-4 text-darkblue text-base max-md:text-sm opacity-65 transition-all duration-700">
                                         {item.description && <p className="mb-4">{item.description}</p>}
                                         {item.tittle && <p className="mb-4">{item.tittle}</p>}
                                         {item.images.length > 0 && (

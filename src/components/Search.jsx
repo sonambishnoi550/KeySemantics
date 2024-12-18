@@ -3,7 +3,7 @@ import { LIST_ITEMS } from '../utils/helper'
 import CommonCard from '../common/CommonCard'
 const Search = () => {
     return (
-        <div className='py-[148px] max-xl:py-28  max-sm:py-12 max-md:py-16 max-lg:py-20 bg-pink'>
+        <div className='py-[148px] max-xl:py-28 max-sm:py-12 max-md:py-16 max-lg:py-20 bg-pink'>
             <div className="container">
                 <div className="flex max-lg:flex-wrap max-xl:justify-between">
                     <div className='lg:w-6/12 w-full xl:pt-[30.5px]'>

@@ -28,7 +28,7 @@ const KeySemanticsForm = () => {
             <div className='absolute bottom-0 right-[12%] xl:block hidden'>
                 <img className='max-w-[137px] pointer-events-none' src="./assets/webp/footer-icon-two.webp" alt="footer-icon" />
             </div>
-            <CustomHeading text="How does KeySemantics work?" className="text-white text-center"/>
+            <CustomHeading text="How does KeySemantics work?" classList="text-white text-center"/>
             <p className='pt-3 font-normal text-base lg:pb-[64px] md:pb-14 pb-11 text-white text-center max-sm:text-sm'>Request a demo for your team and let us show you how KeySemantics can help your company</p>
             <div className="flex justify-center">
                 <form
@@ -51,7 +51,7 @@ const KeySemanticsForm = () => {
                     <p className="text-custom-xxs text-center text-purple mt-4">
                         By submitting my contact information I agree to the KeySemantics Privacy Policy
                     </p>
-                    <CustomButton text="Request a demo" className="!bg-sky text-white py-[15px] px-[32px] mx-auto flex border border-sky hover:!text-sky hover:!bg-white"/>
+                    <CustomButton text="Request a demo" classList="!bg-sky text-white py-[15px] px-[32px] mx-auto flex border border-sky hover:!text-sky hover:!bg-white"/>
                 </form>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { FAQ_ITEMS } from '../utils/helper'
-import { ACCORDION_DATA } from '../utils/helper';
+import { ACCORDION_ITEMS } from '../utils/helper';
 import { useState } from 'react';
 import CustomButton from '../common/CustomButton';
 import CustomHeading from '../common/CustomHeading';
@@ -35,7 +35,7 @@ const Faq = () => {
                             ))}
                         </ul>
                         <div className='border-b border-lightgray'></div>
-                        {ACCORDION_DATA.map((item, index) => (
+                        {ACCORDION_ITEMS.map((item, index) => (
                             <div key={index} className="border-b border-lightgray !transition-all transform !duration-700 !ease-in-out">
                                 <button
                                     onClick={() => toggleAccordion(index)}

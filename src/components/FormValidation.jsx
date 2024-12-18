@@ -1,5 +1,5 @@
 import React from 'react'
-import { FORM_FIELD } from '../utils/helper'
+import { FORM_ITEMS } from '../utils/helper'
 import { useState } from 'react'
 import CustomButton from '../common/CustomButton'
 import CustomHeading from '../common/CustomHeading'
@@ -36,7 +36,7 @@ const FormValidation = () => {
                     onSubmit={handleSubmit}
                     className="w-full max-w-md bg-transparent flex-col"
                 >
-                    {FORM_FIELD.map((field) => (
+                    {FORM_ITEMS.map((field) => (
                         <div key={field.id} className="mb-2 max-w-[320px] mx-auto">
                             <input
                                 id={field.id}

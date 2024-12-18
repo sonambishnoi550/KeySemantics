@@ -36,7 +36,7 @@ export const FAQ_ITEMS = [
     "LLM-powered Question Answering",
 ];
 
-export const ACCORDION_DATA = [
+export const ACCORDION_ITEMS = [
     {
         heading: 'Accordion Heading #one',
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. `,
@@ -70,7 +70,7 @@ export const ACCORDION_DATA = [
         content: `Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
     },
 ];
-export const FORM_FIELD = [
+export const FORM_ITEMS = [
     { id: 'name', label: 'Name', placeholder: 'Name', required: true },
     { id: 'email', label: 'Email', placeholder: 'Email', required: true },
     { id: 'company', label: 'Company', placeholder: 'Company', required: true },

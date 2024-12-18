@@ -3,17 +3,17 @@ import WorkTwo from "../lottie/work-two.json"
 import WorkThree from "../lottie/work-three.json"
 export const WORK_ITEMS = [
     {
-       src: WorkOne,
+       image: WorkOne,
         alt: 'Animation-One',
         description: "Websites, documents and images are pushed into our Analysis API."
     },
     {
-        src: WorkTwo,
+        image: WorkTwo,
         alt: 'Animation-two',
         description: "Using highly optimized and trained AI models, we analyze, vectorize and extract semantic information and relations from your content."
     },
     {
-        src: WorkThree,
+        image: WorkThree,
         alt: 'Animation-three',
         description: "Our enterprise-grade semantic search engine allows you to query your content in many ways. You’ll be amazed by the speed, precision and relevance of the results!"
     }

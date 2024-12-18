@@ -12,7 +12,7 @@ const KeySemanticWork = () => {
                       <div key={index}>
                           <Lottie className='w-[278px] h-[190px]'
                               loop
-                              animationData={item.src}
+                              animationData={item.image}
                               play
                           />
                           <p className='text-darkblue max-w-[289px] mx-auto text-center lg:pt-6 pt-4 text-base leading-custom-xl'>

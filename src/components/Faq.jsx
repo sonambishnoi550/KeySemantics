@@ -36,7 +36,7 @@ const Faq = () => {
                         </ul>
                         <div className='border-b border-lightgray'></div>
                         {ACCORDION_DATA.map((item, index) => (
-                            <div key={index} className="border-b border-lightgray !transition-all transform !duration-1000 !ease-in-out">
+                            <div key={index} className="border-b border-lightgray !transition-all transform !duration-700 !ease-in-out">
                                 <button
                                     onClick={() => toggleAccordion(index)}
                                     className="w-full flex justify-between items-center py-4 text-left text-lg font-medium text-darkblue hover:bg-gray-100 transition-all duration-700 ease-in-out"

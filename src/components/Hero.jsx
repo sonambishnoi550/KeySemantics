@@ -1,7 +1,6 @@
 import React from 'react'
 import CustomButton from '../common/CustomButton'
 import Header from '../common/Header'
-import CustomHeading from '../common/CustomHeading'
 
 const Hero = () => {
     return (

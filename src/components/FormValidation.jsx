@@ -1,8 +1,8 @@
 import React from 'react'
 import { FORM_FIELD } from '../utils/helper'
 import { useState } from 'react'
-import CustomButton from './CustomButton'
-import CustomHeading from './CustomHeading'
+import CustomButton from '../common/CustomButton'
+import CustomHeading from '../common/CustomHeading'
 
 const FormValidation = () => {
     const initialFormState = {

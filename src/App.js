@@ -5,8 +5,8 @@ import Search from './components/Search'
 import Security from './components/Security'
 import Faq from './components/Faq'
 import KeySemantic from './components/KeySemantic'
-import Footer from './common/Footer'
-import FormValidation from './common/FormValidation'
+import Footer from './components/Footer'
+import FormValidation from './components/FormValidation'
 import BackToTop from './common/BackToTop'
 
 const App = () => {

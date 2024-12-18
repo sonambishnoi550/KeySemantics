@@ -15,7 +15,7 @@ const KeySemanticWork = () => {
                               animationData={item.src}
                               play
                           />
-                          <p className='text-darkblue max-w-[289px] mx-auto text-center pt-6 text-base leading-custom_2xl'>
+                          <p className='text-darkblue max-w-[289px] mx-auto text-center lg:pt-6 pt-4 text-base leading-custom-xl'>
                               {item.description}
                           </p>
                       </div>

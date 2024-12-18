@@ -13,7 +13,7 @@ const CommonCard = ({list, text}) => {
                     </li>
                 ))}
             </ul>
-            <CustomButton text="Get a demo" className="max-lg:mx-auto flex"/>
+            <CustomButton text="Get a demo" className="max-lg:mx-auto flex max-lg:!mb-3 max-lg:!mt-3"/>
         </div >
     );
 };

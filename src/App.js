@@ -6,22 +6,20 @@ import Security from './components/Security'
 import Faq from './components/Faq'
 import KeySemantic from './components/KeySemantic'
 import Footer from './components/Footer'
-import FormValidation from './components/FormValidation'
+import KeySemanticFrom from './components/KeySementicForm'
 import BackToTop from './common/BackToTop'
 
 const App = () => {
   return (
     <>
-      <>
         <Hero />
         <KeySemanticWork />
         <KeySemantic />
         <Faq />
         <Search />
         <Security />
-        <FormValidation />
+        <KeySemanticFrom />
         <Footer />
-      </>
       <BackToTop />
     </>
   )

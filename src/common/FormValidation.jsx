@@ -24,10 +24,10 @@ const FormValidation = () => {
     return (
         <div className='lg:py-24 md:py-16 py-12 bg-darkblue relative max-lg:px-3 '>
             <div className='absolute top-0 left-[12%] xl:block hidden'>
-                <img className='max-w-[137px]' src="./assets/webp/footer-icon-one.webp" alt="footer-icon" />
+                <img className='max-w-[137px] pointer-events-none' src="./assets/webp/footer-icon-one.webp" alt="footer-icon" />
             </div>
             <div className='absolute bottom-0 right-[12%] xl:block hidden'>
-                <img className='max-w-[137px]' src="./assets/webp/footer-icon-two.webp" alt="footer-icon" />
+                <img className='max-w-[137px] pointer-events-none' src="./assets/webp/footer-icon-two.webp" alt="footer-icon" />
             </div>
             <CustomHeading text="How does KeySemantics work?" className="text-white text-center"/>
             <p className='pt-3 font-normal text-base lg:pb-[64px] md:pb-14 pb-11 text-white text-center max-sm:text-sm'>Request a demo for your team and let us show you how KeySemantics can help your company</p>

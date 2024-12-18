@@ -7,7 +7,7 @@ const Security = () => {
             <div className="container">
                 <div className="flex !justify-between max-lg:flex-wrap">
                     <div className='lg:w-5/12 w-full'>
-                        <img className='max-w-[570px] max-sm:max-w-[330px] max-xl:max-w-[450px] max-lg:mx-auto max-lg:pb-6' src="./assets/webp/security.webp" alt="search" />
+                        <img className='max-w-[570px] max-sm:max-w-[330px] max-xl:max-w-[450px] max-lg:mx-auto max-lg:pb-6 pointer-events-none' src="./assets/webp/security.webp" alt="search" />
                     </div>
                     <div className='lg:w-5/12 w-full xl:pt-[48.5px] mr-10'>
                         <CommonCard classList="!text-left !whitespace-nowrap" text="Data Security and Hosting" NavButton="Get a demo" list={SECURITY_ITEMS} />

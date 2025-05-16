@@ -8,6 +8,7 @@ import KeySemantic from './components/KeySemantic'
 import Footer from './components/Footer'
 import KeySemanticFrom from './components/KeySementicForm'
 import BackToTop from './common/BackToTop'
+import SecondFaq from './components/SecondFaq'
 
 const App = () => {
   return (
@@ -19,7 +20,8 @@ const App = () => {
         <Search />
         <Security />
         <KeySemanticFrom />
-        <Footer />
+      <Footer />
+      <SecondFaq/>
       <BackToTop />
     </>
   )

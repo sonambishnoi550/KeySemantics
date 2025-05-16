@@ -50,13 +50,15 @@ export default function SecondFaq() {
             gsap.killTweensOf(vertical);
 
             if (openIndex === i) {
-                gsap.set(content, { display: "block" });
+                gsap.set(content, { visibility: "visible", opacity: 1, height: "auto" });
+                const fullHeight = content.scrollHeight;
+
                 gsap.fromTo(
                     content,
-                    { height: 0, autoAlpha: 0 },
+                    { height: 0, opacity: 0 },
                     {
-                        height: content.scrollHeight,
-                        autoAlpha: 1,
+                        height: fullHeight,
+                        opacity: 1,
                         duration: 0.4,
                         ease: "power2.out",
                         onComplete: () => {
@@ -64,18 +66,18 @@ export default function SecondFaq() {
                         },
                     }
                 );
-                gsap.to(vertical, { rotate: 90, duration: 0.3 });
+                gsap.to(vertical, { rotate: 90, duration: 0.3, ease: "power2.out" });
             } else {
                 gsap.to(content, {
                     height: 0,
-                    autoAlpha: 0,
+                    opacity: 0,
                     duration: 0.3,
                     ease: "power2.inOut",
                     onComplete: () => {
-                        gsap.set(content, { display: "none" });
+                        gsap.set(content, { visibility: "hidden" });
                     },
                 });
-                gsap.to(vertical, { rotate: 0, duration: 0.3 });
+                gsap.to(vertical, { rotate: 0, duration: 0.3, ease: "power2.out" });
             }
         });
     }, [openIndex]);
@@ -118,6 +120,7 @@ export default function SecondFaq() {
                                 <div
                                     ref={(el) => (answerRefs.current[index] = el)}
                                     className="overflow-hidden text-sm text-neutral-600 mt-3"
+                                    style={{ height: 0, opacity: 0, visibility: "hidden" }}
                                 >
                                     <p>{faq.answer}</p>
                                 </div>
